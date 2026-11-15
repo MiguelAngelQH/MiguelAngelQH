@@ -58,8 +58,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/MiguelAngelQH/MiguelAngelQH/output/stats.svg" width="49%" alt="stats de github" />
   <img src="https://raw.githubusercontent.com/MiguelAngelQH/MiguelAngelQH/output/langs.svg" width="49%" alt="lenguajes más usados" />
-  <br/><br/>
-  <img src="https://streak-stats.demolab.com?user=MiguelAngelQH&locale=es&hide_border=true&border_radius=14&background=111a2e&ring=4f78d1&fire=f6c177&currStreakNum=f4e6d8&sideNums=f4e6d8&currStreakLabel=a8c8f5&sideLabels=a8c8f5&dates=8399c2&stroke=2a3b60" alt="racha" />
 </div>
 
 <br/>
