@@ -19,15 +19,13 @@
 <img src="assets/title-music.svg" width="100%" alt="música" />
 
 <div align="center">
-  <a href="https://www.instagram.com/miguelangel.wav/"><img src="assets/now-playing.svg" width="100%" alt="now playing: prod. miguelangel.wav" /></a>
+  <a href="https://music.apple.com/us/album/xoxo-feat-ochoa/6806481346?i=6806481347"><img src="assets/now-playing.svg" width="100%" alt="now playing: xoxo (feat. Ochoa) - Antian Rose" /></a>
 </div>
 
 <br/>
 
 <div align="center">
   <img src="assets/scene-cerezos.svg" width="100%" alt="cerezos de noche, pixel art animado" />
-  <br/>
-  <sub>fondo pixel: <a href="https://opengameart.org/content/animated-cityscape-backgroundwallpaper">kotnaszynce</a> (CC0), recoloreado en azul</sub>
 </div>
 
 <div align="center"><img src="assets/divider-stars.svg" width="100%" alt="" /></div>
