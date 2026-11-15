@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253 52" width="253" height="52" role="img" aria-label="escuchar en YouTube">
+<defs><linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" x2="253"><stop offset="0" stop-color="#2a3b60"/><stop offset=".45" stop-color="#2a3b60"/><stop offset=".5" stop-color="#f2a7c3"/><stop offset=".55" stop-color="#2a3b60"/><stop offset="1" stop-color="#2a3b60"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-253 0;253 0" dur="3s" repeatCount="indefinite"/></linearGradient></defs>
+<style>text{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Menlo,Consolas,'Courier New',monospace}</style>
+<rect x="1" y="1" width="251" height="50" rx="25" fill="#111a2e" stroke="url(#bd)" stroke-width="1.5"/>
+<g transform="translate(20 14) scale(1.0)" fill="none" stroke="#f2a7c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></g>
+<text x="56" y="32" fill="#f4e6d8" font-size="15">escuchar en YouTube</text>
+</svg>

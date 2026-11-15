@@ -19,7 +19,9 @@
 <img src="assets/title-music.svg" width="100%" alt="música" />
 
 <div align="center">
-  <a href="https://music.apple.com/us/album/xoxo-feat-ochoa/6806481346?i=6806481347"><img src="assets/now-playing.svg" width="100%" alt="now playing: xoxo (feat. Ochoa) - Antian Rose" /></a>
+  <a href="https://www.youtube.com/watch?v=HjCBgAzc-oM"><img src="assets/now-playing.svg" width="100%" alt="now playing: xoxo (feat. Ochoa) - Antian Rose" /></a>
+  <br/><br/>
+  <a href="https://www.youtube.com/watch?v=HjCBgAzc-oM"><img src="assets/btn-youtube.svg" height="52" alt="escuchar xoxo en YouTube" /></a>
 </div>
 
 <br/>
