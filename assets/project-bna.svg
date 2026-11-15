@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="BNA · Tarjetas">
+<defs>
+<linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="0"><stop offset="0" stop-color="#2a3b60"/><stop offset=".42" stop-color="#2a3b60"/><stop offset=".5" stop-color="#f2a7c3"/><stop offset=".58" stop-color="#2a3b60"/><stop offset="1" stop-color="#2a3b60"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-440 0;440 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r="1"><stop offset="0" stop-color="#4f78d1" stop-opacity=".35"/><stop offset="1" stop-color="#4f78d1" stop-opacity="0"/></radialGradient>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" seed="1"></feTurbulence><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 0.92  0 0 0 0 0.86  0 0 0 0.14 0"/></filter><clipPath id="c"><rect x="1" y="1" width="438" height="188" rx="14"/></clipPath>
+</defs>
+<style>text{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Menlo,Consolas,'Courier New',monospace}
+.ic{animation:f 4s ease-in-out infinite}@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.tw{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.1}50%{opacity:.9}}
+
+.ff{animation:ff 7s ease-in-out infinite}
+@keyframes ff{0%{opacity:0;transform:translate(0,0)}30%{opacity:.9}70%{opacity:.6}100%{opacity:0;transform:translate(14px,-40px)}}
+.shoot{animation:shoot 9s ease-in infinite;opacity:0}
+@keyframes shoot{0%{opacity:0;transform:translate(0,0)}2%{opacity:1}9%{opacity:0;transform:translate(320px,120px)}100%{opacity:0;transform:translate(320px,120px)}}
+.plane{animation:plane 45s linear infinite}
+@keyframes plane{from{transform:translateX(0)}to{transform:translateX(-1400px)}}
+.bl{animation:bl 1.2s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.neon{animation:neon 5s infinite}
+@keyframes neon{0%,100%{opacity:1}47%{opacity:1}48%{opacity:.25}50%{opacity:1}52%{opacity:.4}53%{opacity:1}}
+
+</style>
+<g clip-path="url(#c)">
+<rect width="440" height="190" fill="#111a2e"/><rect width="440" height="190" fill="url(#gl)"/>
+<circle class="tw" cx="137" cy="44" r="0.7" fill="#f4e6d8" style="animation-duration:4.6s;animation-delay:-2.4s"/>
+<circle class="tw" cx="26" cy="22" r="1.1" fill="#f4e6d8" style="animation-duration:3.3s;animation-delay:-3.4s"/>
+<circle class="tw" cx="64" cy="48" r="0.9" fill="#f4e6d8" style="animation-duration:3.9s;animation-delay:-3.1s"/>
+<circle class="tw" cx="184" cy="23" r="1.4" fill="#f4e6d8" style="animation-duration:4.8s;animation-delay:-3.9s"/>
+<circle class="tw" cx="249" cy="18" r="0.6" fill="#f4e6d8" style="animation-duration:4.9s;animation-delay:-3.5s"/>
+<circle class="tw" cx="364" cy="20" r="1.2" fill="#f4e6d8" style="animation-duration:4.9s;animation-delay:-4.2s"/>
+<circle class="tw" cx="265" cy="19" r="1.0" fill="#f4e6d8" style="animation-duration:4.7s;animation-delay:-1.9s"/>
+<circle class="tw" cx="301" cy="36" r="1.5" fill="#f4e6d8" style="animation-duration:4.4s;animation-delay:-1.4s"/>
+<circle class="tw" cx="1" cy="16" r="1.0" fill="#f4e6d8" style="animation-duration:3.8s;animation-delay:-4.1s"/>
+<circle class="tw" cx="390" cy="3" r="1.4" fill="#f4e6d8" style="animation-duration:4.4s;animation-delay:-4.3s"/><circle class="ff" cx="249" cy="115" r="2.4" fill="#f2a7c3" style="animation-duration:7.7s;animation-delay:-8.2s"/>
+<circle class="ff" cx="159" cy="98" r="2.0" fill="#a8c8f5" style="animation-duration:5.8s;animation-delay:-6.8s"/>
+<circle class="ff" cx="393" cy="111" r="2.0" fill="#f2a7c3" style="animation-duration:6.6s;animation-delay:-6.4s"/>
+<circle class="ff" cx="390" cy="143" r="1.2" fill="#a8c8f5" style="animation-duration:6.8s;animation-delay:-0.8s"/>
+<circle class="ff" cx="343" cy="159" r="1.5" fill="#f2a7c3" style="animation-duration:7.1s;animation-delay:-2.3s"/>
+<g class="ic"><rect x="22" y="22" width="40" height="40" rx="11" fill="#1a2744"/><g transform="translate(32 32) scale(0.8333333333333334)" fill="none" stroke="#f6c177" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></g></g>
+<text x="76" y="49" fill="#f4e6d8" font-size="18" font-weight="700">BNA · Tarjetas</text>
+<rect x="323" y="28" width="99" height="24" rx="12" fill="#0a0f1e" stroke="#2a3b60"/>
+<g transform="translate(333.2 33) scale(0.5833333333333334)" fill="none" stroke="#f2a7c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></g>
+<text x="353" y="44" fill="#f2a7c3" font-size="12">académico</text>
+<text x="22" y="98" fill="#8399c2" font-size="13">API de tarjetas de débito del banco académico:</text><text x="22" y="118" fill="#8399c2" font-size="13">emisión, consulta, bloqueo y estados.</text>
+<rect x="22" y="148" width="61" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="53" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">Python</text><rect x="91.2" y="148" width="68" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="125" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">FastAPI</text><rect x="167.60000000000002" y="148" width="54" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="195" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">MySQL</text><rect x="229.60000000000002" y="148" width="61" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="260" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">Docker</text>
+<rect width="440" height="190" filter="url(#grain)"/>
+</g>
+<rect x="1" y="1" width="438" height="188" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+</svg>

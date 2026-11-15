@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 52" width="230" height="52" role="img" aria-label="MiguelAngelQH">
+<defs><linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" x2="230"><stop offset="0" stop-color="#2a3b60"/><stop offset=".45" stop-color="#2a3b60"/><stop offset=".5" stop-color="#a8c8f5"/><stop offset=".55" stop-color="#2a3b60"/><stop offset="1" stop-color="#2a3b60"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-230 0;230 0" dur="3s" repeatCount="indefinite"/></linearGradient></defs>
+<style>text{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Menlo,Consolas,'Courier New',monospace}</style>
+<rect x="1" y="1" width="228" height="50" rx="25" fill="#111a2e" stroke="url(#bd)" stroke-width="1.5"/>
+<g transform="translate(20 14) scale(1.0)" fill="none" stroke="#a8c8f5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></g>
+<text x="56" y="32" fill="#f4e6d8" font-size="15">MiguelAngelQH</text>
+</svg>

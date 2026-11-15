@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="El Taller de Máscaras">
+<defs>
+<linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="0"><stop offset="0" stop-color="#2a3b60"/><stop offset=".42" stop-color="#2a3b60"/><stop offset=".5" stop-color="#f2a7c3"/><stop offset=".58" stop-color="#2a3b60"/><stop offset="1" stop-color="#2a3b60"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-440 0;440 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r="1"><stop offset="0" stop-color="#4f78d1" stop-opacity=".35"/><stop offset="1" stop-color="#4f78d1" stop-opacity="0"/></radialGradient>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" seed="1"></feTurbulence><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 0.92  0 0 0 0 0.86  0 0 0 0.14 0"/></filter><clipPath id="c"><rect x="1" y="1" width="438" height="188" rx="14"/></clipPath>
+</defs>
+<style>text{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Menlo,Consolas,'Courier New',monospace}
+.ic{animation:f 4s ease-in-out infinite}@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.tw{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.1}50%{opacity:.9}}
+
+.ff{animation:ff 7s ease-in-out infinite}
+@keyframes ff{0%{opacity:0;transform:translate(0,0)}30%{opacity:.9}70%{opacity:.6}100%{opacity:0;transform:translate(14px,-40px)}}
+.shoot{animation:shoot 9s ease-in infinite;opacity:0}
+@keyframes shoot{0%{opacity:0;transform:translate(0,0)}2%{opacity:1}9%{opacity:0;transform:translate(320px,120px)}100%{opacity:0;transform:translate(320px,120px)}}
+.plane{animation:plane 45s linear infinite}
+@keyframes plane{from{transform:translateX(0)}to{transform:translateX(-1400px)}}
+.bl{animation:bl 1.2s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.neon{animation:neon 5s infinite}
+@keyframes neon{0%,100%{opacity:1}47%{opacity:1}48%{opacity:.25}50%{opacity:1}52%{opacity:.4}53%{opacity:1}}
+
+</style>
+<g clip-path="url(#c)">
+<rect width="440" height="190" fill="#111a2e"/><rect width="440" height="190" fill="url(#gl)"/>
+<circle class="tw" cx="18" cy="25" r="0.8" fill="#f4e6d8" style="animation-duration:2.5s;animation-delay:-4.2s"/>
+<circle class="tw" cx="230" cy="14" r="0.7" fill="#f4e6d8" style="animation-duration:3.8s;animation-delay:-4.1s"/>
+<circle class="tw" cx="391" cy="44" r="1.3" fill="#f4e6d8" style="animation-duration:2.5s;animation-delay:-0.7s"/>
+<circle class="tw" cx="295" cy="38" r="0.7" fill="#f4e6d8" style="animation-duration:2.9s;animation-delay:-0.1s"/>
+<circle class="tw" cx="305" cy="31" r="1.4" fill="#f4e6d8" style="animation-duration:4.7s;animation-delay:-2.6s"/>
+<circle class="tw" cx="153" cy="17" r="1.2" fill="#f4e6d8" style="animation-duration:4.8s;animation-delay:-0.5s"/>
+<circle class="tw" cx="180" cy="46" r="0.6" fill="#f4e6d8" style="animation-duration:4.0s;animation-delay:-1.2s"/>
+<circle class="tw" cx="248" cy="59" r="0.5" fill="#f4e6d8" style="animation-duration:4.1s;animation-delay:-2.9s"/>
+<circle class="tw" cx="378" cy="21" r="1.5" fill="#f4e6d8" style="animation-duration:4.9s;animation-delay:-0.4s"/>
+<circle class="tw" cx="157" cy="15" r="1.4" fill="#f4e6d8" style="animation-duration:4.7s;animation-delay:-3.9s"/><circle class="ff" cx="367" cy="142" r="2.5" fill="#a8c8f5" style="animation-duration:8.5s;animation-delay:-8.6s"/>
+<circle class="ff" cx="218" cy="136" r="1.9" fill="#f2a7c3" style="animation-duration:5.5s;animation-delay:-2.2s"/>
+<circle class="ff" cx="55" cy="146" r="1.4" fill="#a8c8f5" style="animation-duration:6.0s;animation-delay:-7.4s"/>
+<circle class="ff" cx="32" cy="99" r="2.2" fill="#f6c177" style="animation-duration:6.0s;animation-delay:-7.5s"/>
+<circle class="ff" cx="275" cy="132" r="1.5" fill="#a8c8f5" style="animation-duration:5.4s;animation-delay:-7.8s"/>
+<g class="ic"><rect x="22" y="22" width="40" height="40" rx="11" fill="#1a2744"/><g transform="translate(32 32) scale(0.8333333333333334)" fill="none" stroke="#f6c177" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258A4 4 0 0 0 17.32 5z"/></g></g>
+<text x="76" y="49" fill="#f4e6d8" font-size="18" font-weight="700">El Taller de Máscaras</text>
+<rect x="338" y="28" width="84" height="24" rx="12" fill="#0a0f1e" stroke="#2a3b60"/>
+<g transform="translate(347.6 33) scale(0.5833333333333334)" fill="none" stroke="#f2a7c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></g>
+<text x="368" y="44" fill="#f2a7c3" font-size="12">público</text>
+<text x="22" y="98" fill="#8399c2" font-size="13">Juego 3D de exploración y alquimia: recolecta,</text><text x="22" y="118" fill="#8399c2" font-size="13">mezcla en el caldero, descubre.</text>
+<rect x="22" y="148" width="83" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="63" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">Godot 4.6</text><rect x="112.8" y="148" width="76" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="151" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">GDScript</text>
+<rect width="440" height="190" filter="url(#grain)"/>
+</g>
+<rect x="1" y="1" width="438" height="188" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+</svg>

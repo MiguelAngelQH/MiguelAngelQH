@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="Trevok">
+<defs>
+<linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="0"><stop offset="0" stop-color="#2a3b60"/><stop offset=".42" stop-color="#2a3b60"/><stop offset=".5" stop-color="#f2a7c3"/><stop offset=".58" stop-color="#2a3b60"/><stop offset="1" stop-color="#2a3b60"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-440 0;440 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r="1"><stop offset="0" stop-color="#4f78d1" stop-opacity=".35"/><stop offset="1" stop-color="#4f78d1" stop-opacity="0"/></radialGradient>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" seed="1"></feTurbulence><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 0.92  0 0 0 0 0.86  0 0 0 0.14 0"/></filter><clipPath id="c"><rect x="1" y="1" width="438" height="188" rx="14"/></clipPath>
+</defs>
+<style>text{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Menlo,Consolas,'Courier New',monospace}
+.ic{animation:f 4s ease-in-out infinite}@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.tw{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.1}50%{opacity:.9}}
+
+.ff{animation:ff 7s ease-in-out infinite}
+@keyframes ff{0%{opacity:0;transform:translate(0,0)}30%{opacity:.9}70%{opacity:.6}100%{opacity:0;transform:translate(14px,-40px)}}
+.shoot{animation:shoot 9s ease-in infinite;opacity:0}
+@keyframes shoot{0%{opacity:0;transform:translate(0,0)}2%{opacity:1}9%{opacity:0;transform:translate(320px,120px)}100%{opacity:0;transform:translate(320px,120px)}}
+.plane{animation:plane 45s linear infinite}
+@keyframes plane{from{transform:translateX(0)}to{transform:translateX(-1400px)}}
+.bl{animation:bl 1.2s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.neon{animation:neon 5s infinite}
+@keyframes neon{0%,100%{opacity:1}47%{opacity:1}48%{opacity:.25}50%{opacity:1}52%{opacity:.4}53%{opacity:1}}
+
+</style>
+<g clip-path="url(#c)">
+<rect width="440" height="190" fill="#111a2e"/><rect width="440" height="190" fill="url(#gl)"/>
+<circle class="tw" cx="131" cy="35" r="1.3" fill="#f4e6d8" style="animation-duration:2.3s;animation-delay:-1.6s"/>
+<circle class="tw" cx="113" cy="7" r="1.0" fill="#f4e6d8" style="animation-duration:2.5s;animation-delay:-1.2s"/>
+<circle class="tw" cx="63" cy="41" r="0.5" fill="#f4e6d8" style="animation-duration:4.2s;animation-delay:-1.0s"/>
+<circle class="tw" cx="16" cy="56" r="0.7" fill="#f4e6d8" style="animation-duration:4.8s;animation-delay:-4.3s"/>
+<circle class="tw" cx="391" cy="8" r="1.0" fill="#f4e6d8" style="animation-duration:2.3s;animation-delay:-4.6s"/>
+<circle class="tw" cx="371" cy="38" r="1.0" fill="#f4e6d8" style="animation-duration:3.0s;animation-delay:-4.1s"/>
+<circle class="tw" cx="210" cy="38" r="0.7" fill="#f4e6d8" style="animation-duration:2.7s;animation-delay:-0.3s"/>
+<circle class="tw" cx="314" cy="33" r="0.7" fill="#f4e6d8" style="animation-duration:4.6s;animation-delay:-1.3s"/>
+<circle class="tw" cx="181" cy="9" r="0.8" fill="#f4e6d8" style="animation-duration:4.5s;animation-delay:-1.7s"/>
+<circle class="tw" cx="74" cy="29" r="0.8" fill="#f4e6d8" style="animation-duration:4.7s;animation-delay:-0.6s"/><circle class="ff" cx="411" cy="95" r="2.5" fill="#f2a7c3" style="animation-duration:8.7s;animation-delay:-5.0s"/>
+<circle class="ff" cx="354" cy="101" r="2.3" fill="#a8c8f5" style="animation-duration:6.7s;animation-delay:-2.4s"/>
+<circle class="ff" cx="115" cy="111" r="1.7" fill="#a8c8f5" style="animation-duration:8.6s;animation-delay:-0.5s"/>
+<circle class="ff" cx="311" cy="116" r="2.6" fill="#f6c177" style="animation-duration:6.8s;animation-delay:-4.6s"/>
+<circle class="ff" cx="224" cy="130" r="2.3" fill="#f2a7c3" style="animation-duration:6.1s;animation-delay:-3.2s"/>
+<g class="ic"><rect x="22" y="22" width="40" height="40" rx="11" fill="#1a2744"/><g transform="translate(32 32) scale(0.8333333333333334)" fill="none" stroke="#f6c177" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></g></g>
+<text x="76" y="49" fill="#f4e6d8" font-size="18" font-weight="700">Trevok</text>
+<rect x="338" y="28" width="84" height="24" rx="12" fill="#0a0f1e" stroke="#2a3b60"/>
+<g transform="translate(347.6 33) scale(0.5833333333333334)" fill="none" stroke="#f2a7c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></g>
+<text x="368" y="44" fill="#f2a7c3" font-size="12">privado</text>
+<text x="22" y="98" fill="#8399c2" font-size="13">Sitio de una constructora con portafolio y</text><text x="22" y="118" fill="#8399c2" font-size="13">panel de administración propio.</text>
+<rect x="22" y="148" width="68" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="56" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">Next.js</text><rect x="98.4" y="148" width="76" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="136" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">Tailwind</text><rect x="182.0" y="148" width="76" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="220" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">Supabase</text><rect x="265.6" y="148" width="47" height="24" rx="12" fill="#1a2744" stroke="#2a3b60" stroke-width="1"/><text x="289" y="164" text-anchor="middle" fill="#a8c8f5" font-size="12" font-weight="400">GSAP</text>
+<rect width="440" height="190" filter="url(#grain)"/>
+</g>
+<rect x="1" y="1" width="438" height="188" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+</svg>
