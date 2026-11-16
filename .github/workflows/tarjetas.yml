@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: tarjetas
+  cancel-in-progress: false
+
 jobs:
   tarjetas:
     runs-on: ubuntu-latest
